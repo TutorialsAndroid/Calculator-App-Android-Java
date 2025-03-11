@@ -9,8 +9,11 @@ A **beautiful and modern** calculator app built using **Java** and **Material De
 ✅ **Material Design UI** – Sleek and modern interface
 
 ✅ **Basic Arithmetic Operations** – Addition, Subtraction, Multiplication, Division
+
 ✅ **Responsive Layout** – Works on all screen sizes
+
 ✅ **Error Handling** – Displays errors for invalid expressions
+
 ✅ **Lightweight & Fast** – Minimal dependencies for smooth performance
 
 ---
