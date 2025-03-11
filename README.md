@@ -78,6 +78,10 @@ Feel free to fork this project and submit pull requests!
 ## 📧 Contact
 
 📩 **Akshay** – akshaysunilmasram@yahoo.com  
+
 🐦 **Instagram** – [@coderx09](https://instagram.com/coderx09)
+
 📌 **GitHub** – [TutorialsAndroid](https://github.com/TutorialsAndroid)
+
+📩 **Telegram** - [Akshay](https://t.me/a_masram444)
 
