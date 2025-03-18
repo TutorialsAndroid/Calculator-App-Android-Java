@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
@@ -28,102 +28,101 @@
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onClearClick"
-            android:text="C" />
+            android:text="@string/clear_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onEqualsClick"
-            android:text="=" />
+            android:text="@string/equals_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onOperatorClick"
-            android:text="+" />
+            android:text="@string/addition_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onOperatorClick"
-            android:text="/" />
+            android:text="@string/divide_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onOperatorClick"
-            android:text="*" />
+            android:text="@string/multiply_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onOperatorClick"
-            android:text="-" />
+            android:text="@string/minus_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="7" />
+            android:text="@string/seven_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="8" />
+            android:text="@string/eight_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="9" />
+            android:text="@string/nine_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="4" />
+            android:text="@string/four_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="5" />
+            android:text="@string/five_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="6" />
+            android:text="@string/six_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="1" />
+            android:text="@string/one_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="2" />
+            android:text="@string/two_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="3" />
+            android:text="@string/three_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            app:cornerRadius="@dimen/buttonCornerRadius"
             android:onClick="onDigitClick"
-            android:text="0" />
-
+            android:text="@string/zero_btn_text"
+            app:cornerRadius="@dimen/buttonCornerRadius" />
 
 
     </GridLayout>
