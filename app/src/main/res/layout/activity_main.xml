@@ -28,8 +28,8 @@
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
-            android:padding="16dp"
             android:onClick="onClearClick"
+            android:padding="16dp"
             android:text="@string/clear_btn_text"
             android:textSize="18sp"
             app:cornerRadius="@dimen/buttonCornerRadius" />
@@ -37,15 +37,18 @@
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
             android:onClick="onEqualsClick"
+            android:padding="16dp"
             android:text="@string/equals_btn_text"
+            android:textSize="18sp"
             app:cornerRadius="@dimen/buttonCornerRadius" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
             android:onClick="onOperatorClick"
+            android:padding="16dp"
             android:text="@string/addition_btn_text"
+            android:textSize="18sp"
             app:cornerRadius="@dimen/buttonCornerRadius" />
-
 
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
