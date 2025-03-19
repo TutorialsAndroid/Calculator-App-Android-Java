@@ -74,6 +74,7 @@
         <com.google.android.material.button.MaterialButton
             android:layout_margin="@dimen/margin"
             android:onClick="onDigitClick"
+            android:padding="16dp"
             android:text="@string/seven_btn_text"
             app:cornerRadius="@dimen/buttonCornerRadius" />
 
